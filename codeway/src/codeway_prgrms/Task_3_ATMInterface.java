@@ -56,7 +56,6 @@ class Atm_Machine extends UsersBankAccount
 				{
 					balance();
 				}
-				
 			}
 			else
 			{
@@ -81,7 +80,6 @@ class Atm_Machine extends UsersBankAccount
 			System.out.println("please collect cash");
 			System.out.println("AVAILABLE BALANCE :");
 			System.out.println(bal-amt);
-			
 		}
 		else
 		{
@@ -104,38 +102,20 @@ class Atm_Machine extends UsersBankAccount
 		System.out.println("500 * 20=10000");
 		System.out.println("enter 1 to click on CONFIRM button");
 		int n5=s.nextInt();
-		
 	}
-	
-	
 }
-
-
-
-public class Task_3_ATMInterface {
-
-	
-	public static void main(String[] args) throws Exception
+public class Task_3_ATMInterface
 	{
-		
+           public static void main(String[] args) throws Exception
+	    {
 		Scanner s= new Scanner(System.in);
 		System.out.println("Welcome!");
 		System.out.println("Please enter your card.");
-		
-		
-			System.out.println("Hi, please do not remoove your chip card."+'\n'+"Leave yor card inserted during the Entire Transaction");
-		
+		System.out.println("Hi, please do not remoove your chip card."+'\n'+"Leave yor card inserted during the Entire Transaction");
 		Atm_Machine a=new Atm_Machine();
 		a.apllicationID();
 		a.language();
 		System.out.println("TRANSACTION COMPLETE");
 		System.out.println("please collect your card");
-		
-		
-		
-		
-	
-
-	}
-
+	  }
 }
