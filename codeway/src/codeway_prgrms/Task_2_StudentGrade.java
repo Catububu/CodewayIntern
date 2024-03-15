@@ -1,7 +1,5 @@
 package codeway_prgrms;
-
 import java.util.Scanner;
-
 public class Task_2_StudentGrade
 {
 	public static void subjects(String sub1, String sub2, String sub3, String sub4, String sub5)
